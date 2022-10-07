@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4axjH+42kcc4gkCgrEqCio5Ce47fUtrOlwLEX+B30L4HZgEfiJ7uTL8MBFbUuNezKWOjGec/2XqzzJcgVb+8CQ==",
+  "success": true,
+  "projectFilePath": "r:\\_OLD\\SturaWebshop\\Abstractions\\Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dominik\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

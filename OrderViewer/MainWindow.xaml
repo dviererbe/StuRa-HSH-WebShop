@@ -1,0 +1,46 @@
+﻿<Window x:Class="OrderViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OrderViewer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" MinWidth="200px" MaxWidth="500px"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <ListView x:Name="OrderList" Grid.Column="1" ItemsSource="{Binding Orders}">
+            <ListView.Resources>
+                <ContextMenu x:Key="ItemContextMenu">
+                    <MenuItem Header="Copy Id" Click="MenuItem_Click" />
+                    <MenuItem Header="Copy Items" Click="MenuItem_Click2" />
+                    <MenuItem Header="Print" Click="MenuItem_OnClick" />
+                </ContextMenu>
+            </ListView.Resources>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Setter Property="ContextMenu" Value="{StaticResource ItemContextMenu}"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+
+                <GridView AllowsColumnReorder="true" ColumnHeaderToolTip="Order Information">
+                    
+                    <GridViewColumn DisplayMemberBinding="{Binding Id}" Header="Id" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="Name" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Email}" Header="Email" />
+                    <GridViewColumn DisplayMemberBinding="{Binding PayCash}" Header="Barzahlung" />
+                    <GridViewColumn DisplayMemberBinding="{Binding State}" Header="Status" />
+                    <GridViewColumn DisplayMemberBinding="{Binding ShippingAddress, TargetNullValue='(ABHOLUNG)', FallbackValue='(UNDEFINED)'}" Header="Adresse" />
+                    <GridViewColumn DisplayMemberBinding="{Binding OrderItemsAsString, TargetNullValue='(NULL)', FallbackValue='(UNDEFINED)'}" Header="Items" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

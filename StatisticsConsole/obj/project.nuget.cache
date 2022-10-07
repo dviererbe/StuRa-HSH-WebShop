@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "SdBBhuJT8RoWKKyZkftkN5T4bIOOzf87Rgm8+xkgXfvnYE36naYbLZ2SzxUAIGvjVrTfhDjJmh61kQzjBJ+kxg==",
+  "success": true,
+  "projectFilePath": "r:\\_OLD\\SturaWebshop\\StatisticsConsole\\StatisticsConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dominik\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

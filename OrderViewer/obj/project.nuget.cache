@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mDZ/qSbU6VW7qSGQTIxngTLCGSGbDkvWPuONC9EnUCdjjD1aHvdJ2tSjlcCFbL0I1tFvJa13DXTKY301bNo3Xw==",
+  "success": true,
+  "projectFilePath": "r:\\_OLD\\SturaWebshop\\OrderViewer\\OrderViewer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dominik\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,1 @@
+The Frontend Source Code got lost due to a corrupted file transfer, but I still have the build output. I intend to recover the source code in the future by using the "Vue.js devtools" Browser extension and tricking it into thinking that it sees the development environment. I did a proof of concept back in 2021 that this is possible.
